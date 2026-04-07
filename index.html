@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuMin Group</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <script>
+    (function(){var l;try{l=localStorage.getItem('lumin-lang');}catch(e){}if(l==='zh-CN')document.documentElement.setAttribute('lang','zh-CN');})()
+  </script>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header-top">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo" class="logo-img">
+          <span class="logo-text">LuMin Group</span>
+        </a>
+        <button class="lang-toggle" id="langToggle" title="Switch Language">
+          <span class="lang-zh">EN</span>
+          <span class="lang-en">中文</span>
+        </button>
+      </div>
+    </div>
+    <div class="header-nav">
+      <div class="container">
+        <div class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></div>
+        <nav class="nav" id="mainNav">
+          <a href="index.html" class="active"><span class="i18n" data-zh="首页" data-en="Home">Home</span></a>
+          <a href="research.html"><span class="i18n" data-zh="研究方向" data-en="Research">Research</span></a>
+          <a href="publications.html"><span class="i18n" data-zh="论文发表" data-en="Publications">Publications</span></a>
+          <a href="about.html"><span class="i18n" data-zh="关于PI" data-en="About LuMin">About LuMin</span></a>
+          <a href="members.html"><span class="i18n" data-zh="团队成员" data-en="Members">Members</span></a>
+          <a href="news.html"><span class="i18n" data-zh="新闻动态" data-en="News">News</span></a>
+          <a href="joinus.html"><span class="i18n" data-zh="加入我们" data-en="Join Us">Join Us</span></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-slider" id="heroSlider">
+        <div class="hero-slide active">
+          <div class="hero-content">
+            <h1><span class="i18n" data-zh="欢迎来到" data-en="Welcome to">Welcome to</span><br>LuMin Group</h1>
+            <p><span class="i18n" data-zh="我们致力于前沿科学研究，探索创新性的解决方案，推动学术与应用的融合发展。" data-en="We are dedicated to frontier scientific research, exploring innovative solutions and advancing the integration of academia and application.">We are dedicated to frontier scientific research, exploring innovative solutions and advancing the integration of academia and application.</span></p>
+            <a href="research.html" class="btn btn-outline"><i class="ph ph-microscope"></i> <span class="i18n" data-zh="探索研究" data-en="Explore Research">Explore Research</span></a>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="hero-content">
+            <h1><span class="i18n" data-zh="创新" data-en="Innovative">Innovative</span><br><span class="i18n" data-zh="研究" data-en="Research">Research</span></h1>
+            <p><span class="i18n" data-zh="聚焦核心科学问题，以跨学科方法推动理论突破与技术创新。" data-en="Focusing on core scientific problems, driving theoretical breakthroughs and technological innovation through interdisciplinary approaches.">Focusing on core scientific problems, driving theoretical breakthroughs and technological innovation through interdisciplinary approaches.</span></p>
+            <a href="publications.html" class="btn btn-outline"><i class="ph ph-book-open-text"></i> <span class="i18n" data-zh="查看论文" data-en="View Publications">View Publications</span></a>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="hero-content">
+            <h1><span class="i18n" data-zh="加入我们的" data-en="Join Our">Join Our</span><br><span class="i18n" data-zh="团队" data-en="Team">Team</span></h1>
+            <p><span class="i18n" data-zh="欢迎优秀的博士后、研究生和本科生加入，共同探索科学前沿。" data-en="We welcome outstanding postdocs, graduate and undergraduate students to join us in exploring the frontiers of science.">We welcome outstanding postdocs, graduate and undergraduate students to join us in exploring the frontiers of science.</span></p>
+            <a href="joinus.html" class="btn btn-outline"><i class="ph ph-rocket-launch"></i> <span class="i18n" data-zh="加入我们" data-en="Join Us">Join Us</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-dots" id="heroDots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
+    </section>
+
+    <!-- Research Preview -->
+    <section class="section research-hero-section">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="i18n" data-zh="研究方向" data-en="Research">Research</span></h2>
+          <p><span class="i18n" data-zh="我们的主要研究方向" data-en="Our main research directions">Our main research directions</span></p>
+          <div class="divider"></div>
+        </div>
+        <div class="research-intro animate-in">
+          <div class="research-intro-text">
+            <p><span class="i18n" data-zh="在此简要介绍课题组的整体研究方向和愿景。可以描述研究组致力于解决的核心科学问题，所采用的创新方法与平台，以及在相关领域的前沿探索。通过多学科交叉融合，我们力求为现代化学合成问题提供高效、实用且优雅的解决方案。" data-en="A brief introduction to the overall research vision of our group. We address core scientific questions using innovative methods and platforms, pursuing frontier exploration in related fields. Through interdisciplinary integration, we aim to provide efficient, practical, and elegant solutions for modern chemical synthesis challenges.">A brief introduction to the overall research vision of our group. We address core scientific questions using innovative methods and platforms, pursuing frontier exploration in related fields. Through interdisciplinary integration, we aim to provide efficient, practical, and elegant solutions for modern chemical synthesis challenges.</span></p>
+          </div>
+          <div class="research-intro-img">
+            <div class="img-placeholder" style="height:260px;background:var(--primary-100);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;">
+              <i class="ph ph-image" style="font-size:3rem;color:var(--text-muted);"></i>
+            </div>
+          </div>
+        </div>
+        <div class="research-directions">
+          <div class="research-dir-card animate-in" style="--dir-color: var(--warm);">
+            <div class="dir-dot"></div>
+            <h3><span class="i18n" data-zh="研究方向一" data-en="Research Direction 1">Research Direction 1</span></h3>
+            <p><span class="i18n" data-zh="在此简要介绍课题组的第一个核心研究方向，包括研究背景、方法和目标。" data-en="A brief introduction to the first core research direction, including background, methods, and goals.">A brief introduction to the first core research direction, including background, methods, and goals.</span></p>
+          </div>
+          <div class="research-dir-card animate-in delay-1" style="--dir-color: var(--accent);">
+            <div class="dir-dot"></div>
+            <h3><span class="i18n" data-zh="研究方向二" data-en="Research Direction 2">Research Direction 2</span></h3>
+            <p><span class="i18n" data-zh="在此简要介绍课题组的第二个核心研究方向，包括研究背景、方法和目标。" data-en="A brief introduction to the second core research direction, including background, methods, and goals.">A brief introduction to the second core research direction, including background, methods, and goals.</span></p>
+          </div>
+          <div class="research-dir-card animate-in delay-2" style="--dir-color: var(--teal);">
+            <div class="dir-dot"></div>
+            <h3><span class="i18n" data-zh="研究方向三" data-en="Research Direction 3">Research Direction 3</span></h3>
+            <p><span class="i18n" data-zh="在此简要介绍课题组的第三个核心研究方向，包括研究背景、方法和目标。" data-en="A brief introduction to the third core research direction, including background, methods, and goals.">A brief introduction to the third core research direction, including background, methods, and goals.</span></p>
+          </div>
+        </div>
+        <div class="view-all">
+          <a href="research.html" class="btn btn-primary"><i class="ph ph-arrow-right"></i> VIEW ALL</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Preview -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="i18n" data-zh="论文发表" data-en="Publications">Publications</span></h2>
+          <p><span class="i18n" data-zh="近期精选论文" data-en="Selected recent publications">Selected recent publications</span></p>
+          <div class="divider"></div>
+        </div>
+        <div class="pub-preview-grid">
+          <div class="pub-preview-card animate-in">
+            <div class="pub-preview-cover">
+              <div class="img-placeholder" style="height:100%;background:var(--primary-100);display:flex;align-items:center;justify-content:center;">
+                <i class="ph ph-image" style="font-size:2.5rem;color:var(--text-muted);"></i>
+              </div>
+            </div>
+            <div class="pub-preview-body">
+              <div class="pub-preview-journal"><em>Journal Name</em>, <strong>2026</strong>, Volume, Pages.</div>
+              <div class="pub-preview-title">Publication Title Example 1</div>
+            </div>
+            <a href="#" class="pub-preview-btn"><i class="ph ph-file-text"></i> View</a>
+          </div>
+          <div class="pub-preview-card animate-in delay-1">
+            <div class="pub-preview-cover">
+              <div class="img-placeholder" style="height:100%;background:var(--primary-100);display:flex;align-items:center;justify-content:center;">
+                <i class="ph ph-image" style="font-size:2.5rem;color:var(--text-muted);"></i>
+              </div>
+            </div>
+            <div class="pub-preview-body">
+              <div class="pub-preview-journal"><em>Journal Name</em>, <strong>2025</strong>, Volume, Pages.</div>
+              <div class="pub-preview-title">Publication Title Example 2</div>
+            </div>
+            <a href="#" class="pub-preview-btn"><i class="ph ph-file-text"></i> View</a>
+          </div>
+          <div class="pub-preview-card animate-in delay-2">
+            <div class="pub-preview-cover">
+              <div class="img-placeholder" style="height:100%;background:var(--primary-100);display:flex;align-items:center;justify-content:center;">
+                <i class="ph ph-image" style="font-size:2.5rem;color:var(--text-muted);"></i>
+              </div>
+            </div>
+            <div class="pub-preview-body">
+              <div class="pub-preview-journal"><em>J. Am. Chem. Soc.</em> <strong>2025</strong>, 147, Pages.</div>
+              <div class="pub-preview-title">Publication Title Example 3</div>
+            </div>
+            <a href="#" class="pub-preview-btn"><i class="ph ph-file-text"></i> View</a>
+          </div>
+        </div>
+        <div class="view-all">
+          <a href="publications.html" class="btn btn-primary"><i class="ph ph-arrow-right"></i> VIEW ALL</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- News + Research Duo -->
+    <section class="section">
+      <div class="container">
+        <div class="home-duo">
+          <!-- Left: News -->
+          <div class="home-duo-left">
+            <div class="duo-header">
+              <h2><span class="i18n" data-zh="新闻" data-en="News">News</span></h2>
+              <a href="news.html" class="more-link"><span class="i18n" data-zh="更多" data-en="More">More</span> <i class="ph ph-arrow-right"></i></a>
+            </div>
+            <div class="news-home-layout">
+              <div class="news-home-featured animate-in">
+                <div class="img-placeholder" style="height:220px;border-radius:var(--radius);background:var(--primary-100);display:flex;align-items:center;justify-content:center;">
+                  <i class="ph ph-image" style="font-size:2.5rem;color:var(--text-muted);"></i>
+                </div>
+              </div>
+              <div class="news-home-list">
+                <div class="news-home-item animate-in">
+                  <div class="news-home-date">
+                    <span class="day">09</span>
+                    <span class="ym">2025年6月</span>
+                  </div>
+                  <div class="news-home-title">新闻标题示例一：在此填写新闻简要内容</div>
+                </div>
+                <div class="news-home-item animate-in delay-1">
+                  <div class="news-home-date">
+                    <span class="day">24</span>
+                    <span class="ym">2025年4月</span>
+                  </div>
+                  <div class="news-home-title">新闻标题示例二：在此填写新闻内容</div>
+                </div>
+                <div class="news-home-item animate-in delay-2">
+                  <div class="news-home-date">
+                    <span class="day">21</span>
+                    <span class="ym">2025年3月</span>
+                  </div>
+                  <div class="news-home-title">新闻标题示例三：在此填写新闻内容</div>
+                </div>
+                <div class="news-home-item animate-in delay-3">
+                  <div class="news-home-date">
+                    <span class="day">13</span>
+                    <span class="ym">2025年3月</span>
+                  </div>
+                  <div class="news-home-title">新闻标题示例四：在此填写新闻内容</div>
+                </div>
+                <div class="news-home-item animate-in delay-4">
+                  <div class="news-home-date">
+                    <span class="day">24</span>
+                    <span class="ym">2024年11月</span>
+                  </div>
+                  <div class="news-home-title">新闻标题示例五：在此填写新闻内容</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right: Research -->
+          <div class="home-duo-right">
+            <div class="duo-header">
+              <h2><span class="i18n" data-zh="研究" data-en="Research">Research</span></h2>
+              <a href="research.html" class="more-link"><span class="i18n" data-zh="更多" data-en="More">More</span> <i class="ph ph-arrow-right"></i></a>
+            </div>
+            <div class="research-thumb-grid">
+              <a href="research.html" class="research-thumb-card animate-in">
+                <div class="research-thumb-img">
+                  <div class="img-placeholder" style="height:100%;display:flex;align-items:center;justify-content:center;background:var(--primary-100);">
+                    <i class="ph ph-image" style="font-size:2rem;color:var(--text-muted);"></i>
+                  </div>
+                </div>
+                <div class="research-thumb-label" style="background:var(--accent);">研究方向一</div>
+              </a>
+              <a href="research.html" class="research-thumb-card animate-in delay-1">
+                <div class="research-thumb-img">
+                  <div class="img-placeholder" style="height:100%;display:flex;align-items:center;justify-content:center;background:var(--primary-100);">
+                    <i class="ph ph-image" style="font-size:2rem;color:var(--text-muted);"></i>
+                  </div>
+                </div>
+                <div class="research-thumb-label" style="background:var(--accent);">研究方向二</div>
+              </a>
+              <a href="research.html" class="research-thumb-card animate-in delay-2">
+                <div class="research-thumb-img">
+                  <div class="img-placeholder" style="height:100%;display:flex;align-items:center;justify-content:center;background:var(--primary-100);">
+                    <i class="ph ph-image" style="font-size:2rem;color:var(--text-muted);"></i>
+                  </div>
+                </div>
+                <div class="research-thumb-label" style="background:var(--accent);">研究方向三</div>
+              </a>
+              <a href="research.html" class="research-thumb-card animate-in">
+                <div class="research-thumb-img">
+                  <div class="img-placeholder" style="height:100%;display:flex;align-items:center;justify-content:center;background:var(--primary-100);">
+                    <i class="ph ph-image" style="font-size:2rem;color:var(--text-muted);"></i>
+                  </div>
+                </div>
+                <div class="research-thumb-label" style="background:var(--accent);">研究方向四</div>
+              </a>
+              <a href="research.html" class="research-thumb-card animate-in delay-1">
+                <div class="research-thumb-img">
+                  <div class="img-placeholder" style="height:100%;display:flex;align-items:center;justify-content:center;background:var(--primary-100);">
+                    <i class="ph ph-image" style="font-size:2rem;color:var(--text-muted);"></i>
+                  </div>
+                </div>
+                <div class="research-thumb-label" style="background:var(--accent);">研究方向五</div>
+              </a>
+              <a href="research.html" class="research-thumb-card animate-in delay-2">
+                <div class="research-thumb-img">
+                  <div class="img-placeholder" style="height:100%;display:flex;align-items:center;justify-content:center;background:var(--primary-100);">
+                    <i class="ph ph-image" style="font-size:2rem;color:var(--text-muted);"></i>
+                  </div>
+                </div>
+                <div class="research-thumb-label" style="background:var(--accent);">研究方向六</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Open Positions -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="i18n" data-zh="招贤纳士" data-en="Open Positions">Open Positions</span></h2>
+          <p><span class="i18n" data-zh="加入我们的研究团队" data-en="Join our research team">Join our research team</span></p>
+          <div class="divider"></div>
+        </div>
+        <div class="positions-preview">
+          <div class="position-preview-card glass-card animate-in">
+            <div class="card-icon"><i class="ph-fill ph-graduation-cap"></i></div>
+            <h4><span class="i18n" data-zh="博士后" data-en="Postdoctoral Fellow">Postdoctoral Fellow</span></h4>
+            <p><span class="i18n" data-zh="诚邀具有相关研究背景的优秀博士后加入团队，提供有竞争力的薪酬和完善的科研支持。" data-en="We sincerely invite outstanding postdoctoral fellows with relevant research backgrounds to join our team. Competitive salary and comprehensive research support provided.">We sincerely invite outstanding postdoctoral fellows with relevant research backgrounds to join our team. Competitive salary and comprehensive research support provided.</span></p>
+          </div>
+          <div class="position-preview-card glass-card animate-in delay-1">
+            <div class="card-icon"><i class="ph-fill ph-student"></i></div>
+            <h4><span class="i18n" data-zh="研究生" data-en="Graduate Students">Graduate Students</span></h4>
+            <p><span class="i18n" data-zh="欢迎对科研有热情的硕士生和博士生报考，全方位的学术训练和发展平台。" data-en="We welcome enthusiastic Master's and PhD students. Comprehensive academic training and development platform provided.">We welcome enthusiastic Master's and PhD students. Comprehensive academic training and development platform provided.</span></p>
+          </div>
+          <div class="position-preview-card glass-card animate-in delay-2">
+            <div class="card-icon"><i class="ph-fill ph-briefcase"></i></div>
+            <h4><span class="i18n" data-zh="科研助理" data-en="Research Assistants">Research Assistants</span></h4>
+            <p><span class="i18n" data-zh="招聘科研助理协助课题组日常科研工作，提供良好的研究环境与成长机会。" data-en="Recruiting research assistants to support daily research activities. A supportive research environment and growth opportunities provided.">Recruiting research assistants to support daily research activities. A supportive research environment and growth opportunities provided.</span></p>
+          </div>
+        </div>
+        <div class="view-all">
+          <a href="joinus.html" class="btn btn-primary"><i class="ph ph-arrow-right"></i> READ MORE</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4>LuMin Group</h4>
+          <p><span class="i18n" data-zh="致力于前沿科学研究，探索创新性解决方案。" data-en="Dedicated to frontier scientific research and innovative solutions.">Dedicated to frontier scientific research and innovative solutions.</span></p>
+          <p style="margin-top:14px;">
+            <i class="ph ph-map-pin"></i> <span class="i18n" data-zh="地址：[请填写实验室地址]" data-en="Address: [Please fill in lab address]">Address: [Please fill in lab address]</span><br>
+            <i class="ph ph-envelope-simple"></i> <span class="i18n" data-zh="邮箱：[请填写联系邮箱]" data-en="Email: [Please fill in email]">Email: [Please fill in email]</span><br>
+            <i class="ph ph-phone"></i> <span class="i18n" data-zh="电话：[请填写联系电话]" data-en="Phone: [Please fill in phone]">Phone: [Please fill in phone]</span>
+          </p>
+        </div>
+        <div>
+          <h4><span class="i18n" data-zh="快速链接" data-en="Quick Links">Quick Links</span></h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="首页" data-en="Home">Home</span></a>
+            <a href="research.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="研究方向" data-en="Research">Research</span></a>
+            <a href="publications.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="论文发表" data-en="Publications">Publications</span></a>
+            <a href="about.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="关于PI" data-en="About LuMin">About LuMin</span></a>
+          </div>
+        </div>
+        <div>
+          <h4><span class="i18n" data-zh="更多" data-en="More">More</span></h4>
+          <div class="footer-links">
+            <a href="members.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="团队成员" data-en="Members">Members</span></a>
+            <a href="news.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="新闻动态" data-en="News">News</span></a>
+            <a href="joinus.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="加入我们" data-en="Join Us">Join Us</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 LuMin Group. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" title="回到顶部"><i class="ph ph-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Members — LuMin Group</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <script>
+    (function(){var l;try{l=localStorage.getItem('lumin-lang');}catch(e){}if(l==='zh-CN')document.documentElement.setAttribute('lang','zh-CN');})()
+  </script>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header-top">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo" class="logo-img">
+          <span class="logo-text">LuMin Group</span>
+        </a>
+        <button class="lang-toggle" id="langToggle" title="Switch Language">
+          <span class="lang-zh">EN</span>
+          <span class="lang-en">中文</span>
+        </button>
+      </div>
+    </div>
+    <div class="header-nav">
+      <div class="container">
+        <div class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></div>
+        <nav class="nav" id="mainNav">
+          <a href="index.html"><span class="i18n" data-zh="首页" data-en="Home">Home</span></a>
+          <a href="research.html"><span class="i18n" data-zh="研究方向" data-en="Research">Research</span></a>
+          <a href="publications.html"><span class="i18n" data-zh="论文发表" data-en="Publications">Publications</span></a>
+          <a href="about.html"><span class="i18n" data-zh="关于PI" data-en="About LuMin">About LuMin</span></a>
+          <a href="members.html" class="active"><span class="i18n" data-zh="团队成员" data-en="Members">Members</span></a>
+          <a href="news.html"><span class="i18n" data-zh="新闻动态" data-en="News">News</span></a>
+          <a href="joinus.html"><span class="i18n" data-zh="加入我们" data-en="Join Us">Join Us</span></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 大合照 Hero -->
+    <section class="members-hero">
+      <div class="members-hero-img">
+        <!-- 替换为你们的合照: <img src="images/group-photo.jpg" alt="Group Photo"> -->
+        <div class="img-placeholder" style="height:100%;width:100%;background:linear-gradient(135deg,#1a3050 0%,#2a4268 40%,#0a3d8f 100%);display:flex;align-items:center;justify-content:center;">
+          <span style="color:rgba(255,255,255,0.3);font-size:2.5rem;"><i class="ph ph-camera"></i> Group Photo</span>
+        </div>
+      </div>
+      <div class="members-hero-nav">
+        <a href="#current-members">| &nbsp; <span class="i18n" data-zh="在组成员" data-en="CURRENT MEMBERS">CURRENT MEMBERS</span></a>
+        <a href="#group-alumni">| &nbsp; <span class="i18n" data-zh="毕业校友" data-en="GROUP ALUMNI">GROUP ALUMNI</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="current-members">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="i18n" data-zh="在组成员" data-en="CURRENT MEMBERS">CURRENT MEMBERS</span></h2>
+          <div class="divider"></div>
+        </div>
+        <!-- PI -->
+        <div class="members-category animate-in">
+          <h3><i class="ph-fill ph-crown"></i> <span class="i18n" data-zh="课题组负责人" data-en="Principal Investigator">Principal Investigator</span> <span class="line"></span></h3>
+          <div class="members-grid">
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">LM</span></div>
+              <div class="name">LuMin 陆敏</div>
+              <div class="role">教授 / Professor</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Postdoc -->
+        <div class="members-category animate-in">
+          <h3><i class="ph-fill ph-certificate"></i> <span class="i18n" data-zh="博士后" data-en="Postdoctoral Fellows">Postdoctoral Fellows</span> <span class="line"></span></h3>
+          <div class="members-grid">
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">ZS</span></div>
+              <div class="name">张三</div>
+              <div class="role">博士后</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">LS</span></div>
+              <div class="name">李四</div>
+              <div class="role">博士后</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PhD -->
+        <div class="members-category animate-in">
+          <h3><i class="ph-fill ph-graduation-cap"></i> <span class="i18n" data-zh="博士研究生" data-en="Ph.D. Candidates">Ph.D. Candidates</span> <span class="line"></span></h3>
+          <div class="members-grid">
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">WW</span></div>
+              <div class="name">王五</div>
+              <div class="role">博士研究生</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">ZL</span></div>
+              <div class="name">赵六</div>
+              <div class="role">博士研究生</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">SQ</span></div>
+              <div class="name">孙七</div>
+              <div class="role">博士研究生</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Master -->
+        <div class="members-category animate-in">
+          <h3><i class="ph-fill ph-student"></i> <span class="i18n" data-zh="硕士研究生" data-en="Master Students">Master Students</span> <span class="line"></span></h3>
+          <div class="members-grid">
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">ZB</span></div>
+              <div class="name">周八</div>
+              <div class="role">硕士研究生</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">WJ</span></div>
+              <div class="name">吴九</div>
+              <div class="role">硕士研究生</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">ZS</span></div>
+              <div class="name">郑十</div>
+              <div class="role">硕士研究生</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">CX</span></div>
+              <div class="name">陈晓</div>
+              <div class="role">硕士研究生</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Undergraduate -->
+        <div class="members-category animate-in">
+          <h3><i class="ph-fill ph-book-open"></i> <span class="i18n" data-zh="本科生" data-en="Undergraduate Students">Undergraduate Students</span> <span class="line"></span></h3>
+          <div class="members-grid">
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">HM</span></div>
+              <div class="name">黄明</div>
+              <div class="role">本科生</div>
+            </div>
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">LH</span></div>
+              <div class="name">刘浩</div>
+              <div class="role">本科生</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Group Alumni -->
+    <section class="section section-alt" id="group-alumni">
+      <div class="container">
+        <div class="section-title">
+          <h2><span class="i18n" data-zh="毕业校友" data-en="GROUP ALUMNI">GROUP ALUMNI</span></h2>
+          <div class="divider"></div>
+        </div>
+        <div class="members-category animate-in">
+          <div class="members-grid">
+            <div class="member-card glass-card">
+              <div class="avatar"><span class="initials">XX</span></div>
+              <div class="name">校友姓名</div>
+              <div class="role">毕业去向</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4>LuMin Group</h4>
+          <p><span class="i18n" data-zh="致力于前沿科学研究，探索创新性解决方案。" data-en="Dedicated to frontier scientific research and innovative solutions.">Dedicated to frontier scientific research and innovative solutions.</span></p>
+          <p style="margin-top:14px;">
+            <i class="ph ph-map-pin"></i> <span class="i18n" data-zh="地址：[请填写实验室地址]" data-en="Address: [Please fill in lab address]">Address: [Please fill in lab address]</span><br>
+            <i class="ph ph-envelope-simple"></i> <span class="i18n" data-zh="邮箱：[请填写联系邮箱]" data-en="Email: [Please fill in email]">Email: [Please fill in email]</span><br>
+            <i class="ph ph-phone"></i> <span class="i18n" data-zh="电话：[请填写联系电话]" data-en="Phone: [Please fill in phone]">Phone: [Please fill in phone]</span>
+          </p>
+        </div>
+        <div>
+          <h4><span class="i18n" data-zh="快速链接" data-en="Quick Links">Quick Links</span></h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="首页" data-en="Home">Home</span></a>
+            <a href="research.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="研究方向" data-en="Research">Research</span></a>
+            <a href="publications.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="论文发表" data-en="Publications">Publications</span></a>
+            <a href="about.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="关于PI" data-en="About LuMin">About LuMin</span></a>
+          </div>
+        </div>
+        <div>
+          <h4><span class="i18n" data-zh="更多" data-en="More">More</span></h4>
+          <div class="footer-links">
+            <a href="members.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="团队成员" data-en="Members">Members</span></a>
+            <a href="news.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="新闻动态" data-en="News">News</span></a>
+            <a href="joinus.html"><i class="ph ph-caret-right"></i> <span class="i18n" data-zh="加入我们" data-en="Join Us">Join Us</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 LuMin Group. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" title="回到顶部"><i class="ph ph-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
