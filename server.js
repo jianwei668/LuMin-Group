@@ -56,6 +56,7 @@ async function writeDataFile(name, data) {
     await blobMod.put('data/' + name + '.json', JSON.stringify(data, null, 2), {
       access: 'public',
       addRandomSuffix: false,
+      allowOverwrite: true,
     });
   } else {
     var filePath = path.join(DATA_DIR, name + '.json');
@@ -88,7 +89,7 @@ async function getAdmin() {
     var admin = { username: 'admin', password: hash };
     try {
       getBlob().put('data/_admin.json', JSON.stringify(admin, null, 2), {
-        access: 'public', addRandomSuffix: false,
+        access: 'public', addRandomSuffix: false, allowOverwrite: true,
       });
     } catch (_e) { /* ignore */ }
     return admin;
@@ -107,7 +108,7 @@ async function saveAdmin(adminData) {
   if (isVercel) {
     var blobMod = getBlob();
     await blobMod.put('data/_admin.json', JSON.stringify(adminData, null, 2), {
-      access: 'public', addRandomSuffix: false,
+      access: 'public', addRandomSuffix: false, allowOverwrite: true,
     });
   } else {
     fs.writeFileSync(ADMIN_FILE, JSON.stringify(adminData, null, 2), 'utf-8');
@@ -293,6 +294,7 @@ app.post('/api/upload', authMiddleware, function (req, res) {
         var result = await blobMod.put('images/' + safeName, req.file.buffer, {
           access: 'public',
           addRandomSuffix: false,
+          allowOverwrite: true,
           contentType: req.file.mimetype,
         });
         res.json({ message: '上传成功', path: result.url, filename: safeName });
