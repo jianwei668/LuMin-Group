@@ -7,6 +7,54 @@
       "config": {
         "includeFiles": ["data/**/*.json"]
       }
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "about.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "research.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "publications.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "news.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "members.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "joinus.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "css/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "admin/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "data/**/*.json",
+      "use": "@vercel/static"
     }
   ],
   "rewrites": [
