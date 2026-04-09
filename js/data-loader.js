@@ -7,9 +7,13 @@
   'use strict';
 
   var BASE = '';
+  var isGitHubPages = window.location.hostname.indexOf('github.io') !== -1;
 
   function fetchData(name) {
-    return fetch(BASE + '/data/' + name + '.json')
+    var url = isGitHubPages
+      ? BASE + '/data/' + name + '.json'
+      : BASE + '/api/data/' + name;
+    return fetch(url)
       .then(function(res) { return res.json(); })
       .catch(function() { return null; });
   }
