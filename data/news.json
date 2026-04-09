@@ -1,0 +1,71 @@
+{
+  "bannerTitleZh": "新闻动态",
+  "bannerTitleEn": "News & Activities",
+  "bannerSubtitleZh": "课题组最新动态与活动",
+  "bannerSubtitleEn": "Latest updates and events from our research group",
+  "bannerIcon": "ph-newspaper",
+  "sectionTitleZh": "新闻",
+  "sectionTitleEn": "News",
+  "news": [
+    {
+      "id": 1,
+      "titleZh": "新闻标题示例：课题组成员获得XX奖学金",
+      "titleEn": "News: Group member received XX scholarship",
+      "date": "2026-04-15",
+      "excerptZh": "在此填写新闻的简要描述，介绍事件的背景和意义。课题组成员在XX评选中脱颖而出，获得这一荣誉。",
+      "excerptEn": "Brief description of the news event, including background and significance.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "titleZh": "新闻标题示例：课题组在XX会议上作报告",
+      "titleEn": "News: Group presented at XX conference",
+      "date": "2026-03-20",
+      "excerptZh": "课题组PI受邀在XX国际会议上发表主题报告，分享最新研究成果并与同行进行深入交流。",
+      "excerptEn": "PI was invited to give a keynote presentation at XX international conference.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "titleZh": "新闻标题示例：最新论文发表在Nature Chemistry",
+      "titleEn": "News: Latest paper published in Nature Chemistry",
+      "date": "2026-02-10",
+      "excerptZh": "课题组最新研究成果在Nature Chemistry发表，该工作探索了XX领域的关键问题。",
+      "excerptEn": "Latest research published in Nature Chemistry, exploring key problems in XX field.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "titleZh": "新闻标题示例：课题组年终总结与展望",
+      "titleEn": "News: Annual summary and outlook",
+      "date": "2025-12-05",
+      "excerptZh": "课题组召开年度总结会议，回顾过去一年的科研成果并规划来年的研究方向。",
+      "excerptEn": "Annual summary meeting reviewing research achievements and planning future directions.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "titleZh": "新闻标题示例：新同学加入课题组",
+      "titleEn": "News: New students joined the group",
+      "date": "2025-10-18",
+      "excerptZh": "热烈欢迎新入学的研究生同学加入课题组，祝愿大家在未来的科研道路上取得优异成绩。",
+      "excerptEn": "Warmly welcome new graduate students to join the group.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "titleZh": "新闻标题示例：课题组团建活动",
+      "titleEn": "News: Group team building activity",
+      "date": "2025-08-28",
+      "excerptZh": "课题组组织了一次丰富多彩的团建活动，增进了成员间的交流与合作。",
+      "excerptEn": "The group organized a team building activity to enhance communication and cooperation.",
+      "image": "",
+      "link": "#"
+    }
+  ]
+}

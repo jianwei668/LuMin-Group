@@ -1,0 +1,53 @@
+{
+  "sectionTitleZh": "研究方向",
+  "sectionTitleEn": "Research",
+  "sectionSubtitleZh": "我们的主要研究方向",
+  "sectionSubtitleEn": "Our main research directions",
+  "overviewZh": "在此简要介绍课题组的整体研究方向和愿景。可以描述研究组致力于解决的核心科学问题，所采用的创新方法与平台，以及在相关领域的前沿探索。通过多学科交叉融合，我们力求为现代化学合成问题提供高效、实用且优雅的解决方案。",
+  "overviewEn": "A brief introduction to the overall research vision of our group. We address core scientific questions using innovative methods and platforms, pursuing frontier exploration in related fields. Through interdisciplinary integration, we aim to provide efficient, practical, and elegant solutions for modern chemical synthesis challenges.",
+  "overviewImage": "",
+  "directions": [
+    {
+      "id": 1,
+      "titleZh": "研究方向一",
+      "titleEn": "Research Direction 1",
+      "descZh": "在此简要介绍课题组的第一个核心研究方向，包括研究背景、方法和目标。",
+      "descEn": "A brief introduction to the first core research direction, including background, methods, and goals.",
+      "detailDescZh": "在此详细介绍第一个研究方向的背景、科学意义和你们的研究方法。可以包含具体的课题内容、取得的进展、以及未来的研究计划。",
+      "detailDescEn": "Detailed introduction to the first research direction, including background, scientific significance, and research methods. This may include specific project content, progress, and future plans.",
+      "icon": "ph-atom",
+      "color": "var(--warm)",
+      "accentStart": "rgba(10,61,143,0.88)",
+      "accentEnd": "rgba(37,99,176,0.92)",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "titleZh": "研究方向二",
+      "titleEn": "Research Direction 2",
+      "descZh": "在此简要介绍课题组的第二个核心研究方向，包括研究背景、方法和目标。",
+      "descEn": "A brief introduction to the second core research direction, including background, methods, and goals.",
+      "detailDescZh": "在此详细介绍第二个研究方向的背景、科学意义和你们的研究方法。可以包含具体的课题内容、取得的进展、以及未来的研究计划。",
+      "detailDescEn": "Detailed introduction to the second research direction, including background, scientific significance, and research methods. This may include specific project content, progress, and future plans.",
+      "icon": "ph-dna",
+      "color": "var(--accent)",
+      "accentStart": "rgba(13,148,136,0.88)",
+      "accentEnd": "rgba(20,184,166,0.92)",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "titleZh": "研究方向三",
+      "titleEn": "Research Direction 3",
+      "descZh": "在此简要介绍课题组的第三个核心研究方向，包括研究背景、方法和目标。",
+      "descEn": "A brief introduction to the third core research direction, including background, methods, and goals.",
+      "detailDescZh": "在此详细介绍第三个研究方向的背景、科学意义和你们的研究方法。可以包含具体的课题内容、取得的进展、以及未来的研究计划。",
+      "detailDescEn": "Detailed introduction to the third research direction, including background, scientific significance, and research methods. This may include specific project content, progress, and future plans.",
+      "icon": "ph-chart-line-up",
+      "color": "var(--teal)",
+      "accentStart": "rgba(100,60,140,0.88)",
+      "accentEnd": "rgba(139,92,186,0.92)",
+      "image": ""
+    }
+  ]
+}

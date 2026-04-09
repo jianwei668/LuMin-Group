@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理后台 — LuMin Group</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+</head>
+<body>
+  <div class="admin-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2><i class="ph ph-gear-six"></i> 管理后台</h2>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active" data-section="hero"><i class="ph ph-slideshow"></i> 首页轮播</a>
+        <a href="#" class="nav-item" data-section="research"><i class="ph ph-flask"></i> 研究方向</a>
+        <a href="#" class="nav-item" data-section="publications"><i class="ph ph-article"></i> 论文发表</a>
+        <a href="#" class="nav-item" data-section="news"><i class="ph ph-newspaper"></i> 新闻动态</a>
+        <a href="#" class="nav-item" data-section="members"><i class="ph ph-users-three"></i> 团队成员</a>
+        <a href="#" class="nav-item" data-section="about"><i class="ph ph-user-circle"></i> 导师简介</a>
+        <a href="#" class="nav-item" data-section="contact"><i class="ph ph-phone"></i> 联系/招生</a>
+        <a href="#" class="nav-item" data-section="site"><i class="ph ph-globe"></i> 网站设置</a>
+        <a href="#" class="nav-item" data-section="images"><i class="ph ph-image"></i> 图片管理</a>
+        <a href="#" class="nav-item" data-section="password"><i class="ph ph-lock"></i> 修改密码</a>
+      </nav>
+      <div class="sidebar-footer">
+        <a href="/" target="_blank"><i class="ph ph-eye"></i> 查看前台</a>
+        <button id="logoutBtn"><i class="ph ph-sign-out"></i> 退出登录</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="admin-main">
+      <header class="admin-header">
+        <button class="menu-btn" id="menuBtn"><i class="ph ph-list"></i></button>
+        <h1 id="pageTitle">首页轮播</h1>
+        <span class="admin-user" id="adminUser"></span>
+      </header>
+
+      <div class="admin-content" id="adminContent">
+        <!-- Dynamic content loaded by JS -->
+        <div class="loading"><i class="ph ph-spinner"></i> 加载中...</div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

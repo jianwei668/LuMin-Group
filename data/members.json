@@ -1,0 +1,149 @@
+{
+  "bannerTitleZh": "团队成员",
+  "bannerTitleEn": "Members",
+  "bannerSubtitleZh": "",
+  "bannerSubtitleEn": "",
+  "currentMembersTitleZh": "在组成员",
+  "currentMembersTitleEn": "CURRENT MEMBERS",
+  "alumniTitleZh": "毕业校友",
+  "alumniTitleEn": "GROUP ALUMNI",
+  "groupPhoto": "",
+  "categories": [
+    {
+      "id": "pi",
+      "nameZh": "课题组负责人",
+      "nameEn": "Principal Investigator",
+      "icon": "ph-fill ph-crown"
+    },
+    {
+      "id": "postdoc",
+      "nameZh": "博士后",
+      "nameEn": "Postdoctoral Fellows",
+      "icon": "ph-fill ph-certificate"
+    },
+    {
+      "id": "phd",
+      "nameZh": "博士研究生",
+      "nameEn": "Ph.D. Candidates",
+      "icon": "ph-fill ph-graduation-cap"
+    },
+    {
+      "id": "master",
+      "nameZh": "硕士研究生",
+      "nameEn": "Master Students",
+      "icon": "ph-fill ph-student"
+    },
+    {
+      "id": "undergrad",
+      "nameZh": "本科生",
+      "nameEn": "Undergraduate Students",
+      "icon": "ph-fill ph-book-open"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "LuMin 陆敏",
+      "initials": "LM",
+      "role": "教授 / Professor",
+      "category": "pi",
+      "avatar": ""
+    },
+    {
+      "id": 2,
+      "name": "张三",
+      "initials": "ZS",
+      "role": "博士后",
+      "category": "postdoc",
+      "avatar": ""
+    },
+    {
+      "id": 3,
+      "name": "李四",
+      "initials": "LS",
+      "role": "博士后",
+      "category": "postdoc",
+      "avatar": ""
+    },
+    {
+      "id": 4,
+      "name": "王五",
+      "initials": "WW",
+      "role": "博士研究生",
+      "category": "phd",
+      "avatar": ""
+    },
+    {
+      "id": 5,
+      "name": "赵六",
+      "initials": "ZL",
+      "role": "博士研究生",
+      "category": "phd",
+      "avatar": ""
+    },
+    {
+      "id": 6,
+      "name": "孙七",
+      "initials": "SQ",
+      "role": "博士研究生",
+      "category": "phd",
+      "avatar": ""
+    },
+    {
+      "id": 7,
+      "name": "周八",
+      "initials": "ZB",
+      "role": "硕士研究生",
+      "category": "master",
+      "avatar": ""
+    },
+    {
+      "id": 8,
+      "name": "吴九",
+      "initials": "WJ",
+      "role": "硕士研究生",
+      "category": "master",
+      "avatar": ""
+    },
+    {
+      "id": 9,
+      "name": "郑十",
+      "initials": "ZS",
+      "role": "硕士研究生",
+      "category": "master",
+      "avatar": ""
+    },
+    {
+      "id": 10,
+      "name": "陈晓",
+      "initials": "CX",
+      "role": "硕士研究生",
+      "category": "master",
+      "avatar": ""
+    },
+    {
+      "id": 11,
+      "name": "黄明",
+      "initials": "HM",
+      "role": "本科生",
+      "category": "undergrad",
+      "avatar": ""
+    },
+    {
+      "id": 12,
+      "name": "刘浩",
+      "initials": "LH",
+      "role": "本科生",
+      "category": "undergrad",
+      "avatar": ""
+    }
+  ],
+  "alumni": [
+    {
+      "id": 1,
+      "name": "校友姓名",
+      "initials": "XX",
+      "destination": "毕业去向"
+    }
+  ]
+}

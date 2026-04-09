@@ -1,0 +1,66 @@
+{
+  "bannerTitleZh": "关于PI",
+  "bannerTitleEn": "About LuMin",
+  "bannerSubtitleZh": "课题组负责人",
+  "bannerSubtitleEn": "Principal Investigator",
+  "bannerIcon": "ph-user-circle",
+  "name": "Prof. LuMin （陆敏）",
+  "title": "教授 / Professor，博士生导师",
+  "affiliationZh": "[请填写所在院校及系所]",
+  "affiliationEn": "[Please fill in university and department]",
+  "collegeZh": "[请填写学院名称]",
+  "collegeEn": "[Please fill in college name]",
+  "email": "example@university.edu.cn",
+  "phone": "+86 xxx xxxx xxxx",
+  "office": "[请填写办公室地址]",
+  "photo": "",
+  "education": [
+    {
+      "id": 1,
+      "years": "20XX – 20XX",
+      "descZh": "博士学位，[专业]\n[院校名称]",
+      "descEn": "Ph.D., [Major]\n[University]"
+    },
+    {
+      "id": 2,
+      "years": "20XX – 20XX",
+      "descZh": "硕士学位，[专业]\n[院校名称]",
+      "descEn": "M.S., [Major]\n[University]"
+    },
+    {
+      "id": 3,
+      "years": "20XX – 20XX",
+      "descZh": "学士学位，[专业]\n[院校名称]",
+      "descEn": "B.S., [Major]\n[University]"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "years": "20XX – 至今",
+      "descZh": "教授\n[院校名称]",
+      "descEn": "Professor\n[University]"
+    },
+    {
+      "id": 2,
+      "years": "20XX – 20XX",
+      "descZh": "副教授 / 博士后\n[院校名称]",
+      "descEn": "Associate Professor / Postdoc\n[University]"
+    }
+  ],
+  "awards": [
+    { "id": 1, "year": "20XX", "titleZh": "[请填写荣誉/奖项 1]", "titleEn": "[Award 1]" },
+    { "id": 2, "year": "20XX", "titleZh": "[请填写荣誉/奖项 2]", "titleEn": "[Award 2]" },
+    { "id": 3, "year": "20XX", "titleZh": "[请填写荣誉/奖项 3]", "titleEn": "[Award 3]" }
+  ],
+  "researchInterests": [
+    { "id": 1, "zh": "[研究兴趣方向 1]", "en": "[Research Interest 1]" },
+    { "id": 2, "zh": "[研究兴趣方向 2]", "en": "[Research Interest 2]" },
+    { "id": 3, "zh": "[研究兴趣方向 3]", "en": "[Research Interest 3]" },
+    { "id": 4, "zh": "[研究兴趣方向 4]", "en": "[Research Interest 4]" }
+  ],
+  "academicServices": [
+    { "id": 1, "zh": "[请填写学术兼职/服务 1]", "en": "[Academic Service 1]" },
+    { "id": 2, "zh": "[请填写学术兼职/服务 2]", "en": "[Academic Service 2]" }
+  ]
+}

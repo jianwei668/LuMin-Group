@@ -1,0 +1,47 @@
+{
+  "bannerTitleZh": "加入我们",
+  "bannerTitleEn": "Join Us",
+  "bannerSubtitleZh": "职位招聘与合作机会",
+  "bannerSubtitleEn": "Open positions and opportunities in our group",
+  "bannerIcon": "ph-handshake",
+  "posSectionTitleZh": "招贤纳士",
+  "posSectionTitleEn": "Open Positions",
+  "posSectionSubtitleZh": "加入我们的研究团队",
+  "posSectionSubtitleEn": "Join our research team",
+  "email": "example@university.edu.cn",
+  "phone": "[请填写联系电话]",
+  "addressZh": "[请填写实验室地址]",
+  "addressEn": "[Please fill in lab address]",
+  "office": "[请填写办公室信息]",
+  "mapUrl": "https://www.openstreetmap.org/export/embed.html?bbox=116.28%2C39.88%2C116.42%2C39.98&layer=mapnik",
+  "joinUsZh": "我们诚招优秀的博士后研究人员、研究生和科研助理加入实验室！",
+  "joinUsEn": "We are seeking talented postdoctoral scholars, graduate students and research assistants to join the lab!",
+  "joinUsDetailZh": "热忱欢迎对科学研究感兴趣的博士后、研究生加入本课题组！",
+  "joinUsDetailEn": "We warmly welcome postdocs and graduate students interested in scientific research to join our group!",
+  "positions": [
+    {
+      "id": 1,
+      "titleZh": "博士后",
+      "titleEn": "Postdoctoral Fellow",
+      "descZh": "诚邀具有相关研究背景的优秀博士后加入团队，提供有竞争力的薪酬和完善的科研支持。",
+      "descEn": "We sincerely invite outstanding postdoctoral fellows with relevant research backgrounds to join our team. Competitive salary and comprehensive research support provided.",
+      "icon": "ph-fill ph-graduation-cap"
+    },
+    {
+      "id": 2,
+      "titleZh": "研究生",
+      "titleEn": "Graduate Students",
+      "descZh": "欢迎对科研有热情的硕士生和博士生报考，全方位的学术训练和发展平台。",
+      "descEn": "We welcome enthusiastic Master's and PhD students. Comprehensive academic training and development platform provided.",
+      "icon": "ph-fill ph-student"
+    },
+    {
+      "id": 3,
+      "titleZh": "科研助理",
+      "titleEn": "Research Assistants",
+      "descZh": "招聘科研助理协助课题组日常科研工作，提供良好的研究环境与成长机会。",
+      "descEn": "Recruiting research assistants to support daily research activities. A supportive research environment and growth opportunities provided.",
+      "icon": "ph-fill ph-briefcase"
+    }
+  ]
+}

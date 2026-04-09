@@ -1,0 +1,16 @@
+{
+  "name": "lumin-group-admin",
+  "version": "1.0.0",
+  "description": "LuMin Group website admin panel server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

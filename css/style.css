@@ -235,6 +235,16 @@ main { flex: 1; margin-top: var(--header-h); }
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-slide.has-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(10,30,61,0.72) 0%, rgba(10,61,143,0.55) 50%, rgba(10,30,61,0.65) 100%);
+  z-index: 1;
 }
 .hero-slide.active { opacity: 1; }
 .hero-content {

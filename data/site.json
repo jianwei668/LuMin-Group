@@ -1,0 +1,16 @@
+{
+  "groupName": "LuMin Group",
+  "logo": "images/logo.png",
+  "footerDescZh": "致力于前沿科学研究，探索创新性解决方案。",
+  "footerDescEn": "Dedicated to frontier scientific research and innovative solutions.",
+  "copyright": "© 2026 LuMin Group. All Rights Reserved.",
+  "navItems": [
+    { "href": "index.html", "zh": "首页", "en": "Home" },
+    { "href": "research.html", "zh": "研究方向", "en": "Research" },
+    { "href": "publications.html", "zh": "论文发表", "en": "Publications" },
+    { "href": "about.html", "zh": "关于PI", "en": "About LuMin" },
+    { "href": "members.html", "zh": "团队成员", "en": "Members" },
+    { "href": "news.html", "zh": "新闻动态", "en": "News" },
+    { "href": "joinus.html", "zh": "加入我们", "en": "Join Us" }
+  ]
+}

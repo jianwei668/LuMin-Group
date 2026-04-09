@@ -1,0 +1,46 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "bgImage": "",
+      "titleZh": "欢迎来到",
+      "titleEn": "Welcome to",
+      "subtitleZh": "LuMin Group",
+      "subtitleEn": "LuMin Group",
+      "descZh": "我们致力于前沿科学研究，探索创新性的解决方案，推动学术与应用的融合发展。",
+      "descEn": "We are dedicated to frontier scientific research, exploring innovative solutions and advancing the integration of academia and application.",
+      "btnTextZh": "探索研究",
+      "btnTextEn": "Explore Research",
+      "btnLink": "research.html",
+      "btnIcon": "ph-microscope"
+    },
+    {
+      "id": 2,
+      "bgImage": "",
+      "titleZh": "创新",
+      "titleEn": "Innovative",
+      "subtitleZh": "研究",
+      "subtitleEn": "Research",
+      "descZh": "聚焦核心科学问题，以跨学科方法推动理论突破与技术创新。",
+      "descEn": "Focusing on core scientific problems, driving theoretical breakthroughs and technological innovation through interdisciplinary approaches.",
+      "btnTextZh": "查看论文",
+      "btnTextEn": "View Publications",
+      "btnLink": "publications.html",
+      "btnIcon": "ph-book-open-text"
+    },
+    {
+      "id": 3,
+      "bgImage": "",
+      "titleZh": "加入我们的",
+      "titleEn": "Join Our",
+      "subtitleZh": "团队",
+      "subtitleEn": "Team",
+      "descZh": "欢迎优秀的博士后、研究生和本科生加入，共同探索科学前沿。",
+      "descEn": "We welcome outstanding postdocs, graduate and undergraduate students to join us in exploring the frontiers of science.",
+      "btnTextZh": "加入我们",
+      "btnTextEn": "Join Us",
+      "btnLink": "joinus.html",
+      "btnIcon": "ph-rocket-launch"
+    }
+  ]
+}
